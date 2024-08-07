@@ -1,8 +1,7 @@
+import os
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
-import os
 
-# 환경 변수에서 봇 API 토큰 및 대상 채널/그룹 ID 가져오기
 TOKEN = os.getenv('7330107332:AAGi6vu9SIYe7iTqmLGKmAnr8gGefjk7Kag')
 TARGET_CHAT_ID = os.getenv('4273472589')
 
